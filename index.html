@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kit de Recursos de Multas de Trânsito | Modelos Editáveis & Defesa CTB 2026</title>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18546965327"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-18546965327');
+  </script>
+
+  <style>
+    :root {
+      --bg: #0b1426;
+      --card: #132238;
+      --border: #233857;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --primary: #f59e0b;
+      --primary-hover: #d97706;
+      --accent: #38bdf8;
+      --danger: #ef4444;
+      --success: #10b981;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--text); display: flex; justify-content: center; padding: 24px 14px; line-height: 1.5; }
+    .container { max-width: 580px; width: 100%; }
+    .header-hero { text-align: center; margin-bottom: 24px; }
+    .badge { display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(245, 158, 11, 0.12); color: var(--primary); padding: 7px 18px; border-radius: 999px; font-size: 13px; font-weight: 700; margin-bottom: 16px; border: 1px solid rgba(245, 158, 11, 0.3); }
+    h1 { font-size: 26px; line-height: 1.25; font-weight: 800; margin-bottom: 14px; letter-spacing: -0.02em; text-align: center; }
+    .hero-sub { font-size: 15px; color: var(--muted); text-align: center; line-height: 1.5; margin-bottom: 20px; }
+    .highlight { color: var(--primary); }
+    
+    .alert-box { background: rgba(239, 68, 68, 0.08); border-left: 4px solid var(--danger); padding: 16px; border-radius: 8px; margin-bottom: 24px; font-size: 14px; color: #fca5a5; line-height: 1.6; border: 1px solid rgba(239, 68, 68, 0.2); }
+    
+    .content-card { background: var(--card); border-radius: 14px; padding: 24px; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.3); margin-bottom: 20px; }
+    .content-card h2 { font-size: 19px; margin-bottom: 16px; font-weight: 700; color: #fff; }
+    .feature-list { list-style: none; margin-bottom: 24px; }
+    .feature-list li { margin-bottom: 14px; display: flex; align-items: flex-start; font-size: 14.5px; color: #cbd5e1; }
+    .feature-list li .check { color: var(--success); margin-right: 10px; font-weight: 900; font-size: 16px; }
+    
+    .law-box { background: rgba(15, 23, 42, 0.7); padding: 16px; border-radius: 10px; border: 1px solid var(--border); margin-bottom: 20px; font-size: 13.5px; color: #e2e8f0; }
+    .law-box strong { color: var(--accent); }
+
+    .price-box { text-align: center; background: rgba(11, 20, 38, 0.8); padding: 22px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 20px; }
+    .old-price { font-size: 14px; color: var(--muted); text-decoration: line-through; }
+    .new-price { font-size: 42px; font-weight: 900; color: var(--primary); margin: 6px 0; }
+    .price-sub { font-size: 13px; color: var(--muted); }
+    
+    .btn-checkout { display: block; width: 100%; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: #0b1426; text-align: center; text-decoration: none; padding: 18px; font-size: 17px; font-weight: 800; border-radius: 10px; transition: transform 0.15s, box-shadow 0.15s; box-shadow: 0 6px 20px rgba(245, 158, 11, 0.35); text-transform: uppercase; letter-spacing: 0.02em; }
+    .btn-checkout:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(245, 158, 11, 0.5); }
+    
+    .delivery-badge { display: flex; align-items: center; justify-content: center; gap: 8px; background: rgba(16, 185, 129, 0.08); border: 1px dashed rgba(16, 185, 129, 0.3); padding: 12px; border-radius: 8px; margin-top: 14px; font-size: 13px; color: #a7f3d0; text-align: center; }
+    .footer-guarantee { text-align: center; margin-top: 14px; font-size: 13px; color: var(--muted); display: flex; justify-content: center; align-items: center; gap: 8px; }
+    
+    /* FAQ ACCORDION */
+    .faq-item { border-bottom: 1px solid var(--border); padding: 14px 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-size: 15px; font-weight: 700; color: #fff; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+    .faq-answer { display: none; font-size: 13.5px; color: var(--muted); margin-top: 8px; line-height: 1.5; }
+    
+    /* FOOTER JURIDICO STRICT COMPLIANCE */
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 11px; color: var(--muted); line-height: 1.6; text-align: center; }
+    footer a { color: var(--muted); text-decoration: underline; margin: 0 6px; }
+    .disclaimer-gov { background: rgba(15, 23, 42, 0.5); padding: 12px; border-radius: 6px; margin-top: 14px; border: 1px solid rgba(255, 255, 255, 0.05); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- HEADER HERO -->
+    <header class="header-hero">
+      <div class="badge">⚖️ DIREITO DE DEFESA ADMINISTRATIVA (ART. 5º, LV, CF/88)</div>
+      <h1>Recebeu uma Multa de Trânsito? <span class="highlight">Anule a Cobrança</span> e Proteja sua CNH Sem Advogado</h1>
+      <p class="hero-sub">Kit definitivo de modelos editáveis em Word (.docx) e guia passo a passo fundamentado no Código de Trânsito Brasileiro e Resoluções CONTRAN 2026.</p>
+    </header>
+
+    <!-- ALERTA DE PRAZO -->
+    <div class="alert-box">
+      <strong>⚠️ ATENÇÃO AO PRAZO IMPRORROGÁVEL DE 30 DIAS:</strong><br>
+      Após receber a Notificação de Autuação, você tem apenas 30 dias para protocolar sua Defesa Prévia ou requerer a Conversão em Advertência. Se perder o prazo, a pontuação entrará direto na sua CNH.
+    </div>
+
+    <!-- SEÇÃO 1: O QUE VOCÊ RECEBE (METODO) -->
+    <section class="content-card" id="metodo">
+      <h2>📁 O Que Está Incluso no Kit Profissional:</h2>
+      <ul class="feature-list">
+        <li><span class="check">✔</span> <div><strong>Modelo 1: Conversão Automática em Advertência por Escrito (Art. 267 CTB):</strong> Para multas leves ou médias de quem não cometeu infrações nos últimos 12 meses. O órgão é obrigado por lei a cancelar o valor e os pontos.</div></li>
+        <li><span class="check">✔</span> <div><strong>Modelo 2: Recurso de Excesso de Velocidade (Radar):</strong> Tese completa de nulidade por falta de calibração anual do INMETRO e erro de sinalização (Resolução 798/2020 CONTRAN).</div></li>
+        <li><span class="check">✔</span> <div><strong>Modelo 3: Recurso contra Uso de Celular ao Volante:</strong> Nulidade por ausência de abordagem e falta de descrição circunstanciada da conduta (Resolução 985/2022).</div></li>
+        <li><span class="check">✔</span> <div><strong>Modelo 4: Recurso de Avanço de Sinal Vermelho Noturno:</strong> Tese pacificada de Estado de Necessidade e proteção à integridade física em cruzamentos de risco.</div></li>
+        <li><span class="check">✔</span> <div><strong>Modelo 5: Recurso da Lei Seca (Art. 165-A):</strong> Defesa contra a recusa ao etilômetro com base na falta do Termo de Constatação de Sinais (Resolução 432/2013).</div></li>
+        <li><span class="check">✔</span> <div><strong>Efeito Suspensivo Garantido (Art. 284 e 285 CTB):</strong> Enquanto o recurso estiver em julgamento, você NÃO paga a multa e os pontos NÃO são lançados na CNH.</div></li>
+      </ul>
+      
+      <div class="law-box">
+        💡 <strong>Você Sabia?</strong> Conforme o Art. 281, II do CTB, se a notificação de autuação for expedida após 30 dias da data da infração, o auto <strong>DEVE SER OBRIGATORIAMENTE ARQUIVADO</strong> por decadência legal. Nosso kit inclui a petição exata para alegar essa nulidade.
+      </div>
+    </section>
+
+    <!-- OFERTA E CHECKOUT -->
+    <section class="content-card" id="oferta">
+      <h2>🚀 Libere Acesso Imediato ao Material Completo</h2>
+      
+      <div class="price-box">
+        <p class="old-price">De R$ 97,00 por apenas</p>
+        <p class="new-price">R$ 24,90</p>
+        <p class="price-sub">Pagamento único · Sem mensalidades · Acesso vitalício</p>
+      </div>
+
+      <a href="https://pay.kiwify.com.br/recursos-multas" class="btn-checkout" id="cta-checkout">
+        Baixar Kit de Recursos Agora ➔
+      </a>
+
+      <div class="delivery-badge">
+        ⚡ <strong>Download Instantâneo:</strong> Acesso enviado para o seu e-mail imediatamente após a confirmação do pagamento.
+      </div>
+
+      <div class="footer-guarantee" id="garantia">
+        🛡️ Garantia Blindada de 7 Dias: Se não ficar satisfeito, devolvemos 100% do seu dinheiro.
+      </div>
+    </section>
+
+    <!-- BÔNUS EXCLUSIVOS -->
+    <section class="content-card" id="bonus">
+      <h2>🎁 Bônus Inclusos Gratuitamente:</h2>
+      <ul class="feature-list">
+        <li><span class="check">✔</span> <div><strong>Checklist de Protocolo Digital:</strong> Como enviar o recurso pelo portal do DETRAN e pelo aplicativo Carteira Digital de Trânsito (CDT) sem sair de casa.</div></li>
+        <li><span class="check">✔</span> <div><strong>Guia de Prescrição Intercorrente (Lei 14.229/21):</strong> Como extinguir processos administrativos que demoram mais de 24 meses para julgamento.</div></li>
+        <li><span class="check">✔</span> <div><strong>Modelos em Formato Word (.docx):</strong> Prontos para você apenas digitar seus dados, placa e assinar.</div></li>
+      </ul>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-card">
+      <h2>Perguntas Frequentes</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">Preciso de advogado para protocolar o recurso? <span>+</span></div>
+        <div class="faq-answer">Não! No processo administrativo de trânsito, qualquer cidadão tem capacidade postulatória plena (Art. 5º, LV da CF/88). Você mesmo pode preencher o modelo e protocolar pela internet no site do DETRAN ou aplicativo CDT.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">Sou obrigado a pagar a multa para recorrer? <span>+</span></div>
+        <div class="faq-answer">Não. Conforme o Artigo 284, § 3º do Código de Trânsito Brasileiro, o pagamento da multa NÃO é obrigatório para a interposição de recurso perante a JARI ou Defesa Prévia.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">Como receberei os arquivos editáveis? <span>+</span></div>
+        <div class="faq-answer">Logo após a aprovação do pagamento na Kiwify, você recebe um e-mail com os links para download imediato do Guia em PDF e de todos os modelos editáveis em formato Word (.docx).</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">Como funciona a garantia de 7 dias? <span>+</span></div>
+        <div class="faq-answer">Você tem 7 dias corridos para avaliar todo o material. Se por qualquer motivo achar que o kit não atendeu suas expectativas, basta solicitar o reembolso na Kiwify e devolveremos 100% do valor pago.</div>
+      </div>
+    </section>
+
+    <!-- FOOTER E DISCLAIMER COMPLIANCE GOOGLE ADS -->
+    <footer>
+      <p>© 2026 Kit de Recursos de Trânsito. Todos os direitos reservados.</p>
+      <p style="margin-top: 6px;">
+        <a href="#garantia">Garantia 7 Dias</a> |
+        <a href="termos.html">Termos de Uso</a> |
+        <a href="privacidade.html">Política de Privacidade</a> |
+        <a href="mailto:contato@vudotsur.com.br">Suporte por E-mail</a>
+      </p>
+
+      <div class="disclaimer-gov">
+        <strong>Aviso Institucional & Isenção de Vínculo:</strong> Este site e o produto comercializado não possuem qualquer vínculo institucional, patrocínio ou representação com o Departamento Estadual de Trânsito (DETRAN), Conselho Nacional de Trânsito (CONTRAN), Polícia Rodoviária Federal (PRF), DNIT ou qualquer entidade governamental. Trata-se de material de orientação técnico-jurídica fundamentado na legislação pública federal (Lei 9.503/97). O deferimento do recurso depende da análise da autoridade julgadora.
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    function toggleFaq(el) {
+      const ans = el.nextElementSibling;
+      const isVisible = ans.style.display === 'block';
+      ans.style.display = isVisible ? 'none' : 'block';
+      el.querySelector('span').innerText = isVisible ? '+' : '−';
+    }
+  </script>
+
+</body>
+</html>
